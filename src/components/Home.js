@@ -55,7 +55,7 @@ function Home() {
                     disabled={error.length > 0}
                     onClick={() => clickHandler()}
                 >
-                    Calculator String
+                    Submit
                 </button> 
                 {
                     error.length === 0 && result.length !== 0 && ( 
